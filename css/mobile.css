@@ -1,0 +1,149 @@
+/* @media screen and (max-width: 100px) {
+  header .header-content img {
+    height: 100%;
+    width: 35%;
+    border-radius: 2rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  header .header-content img {
+    height: 100%;
+    width: 35%;
+    border-radius: 2rem;
+  }
+} */
+
+@media (max-width: 600px) and (min-width: 319px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar ul {
+    margin-top: 0.5rem;
+  }
+  .navbar ul li {
+    padding: 1rem 0.4rem;
+  }
+
+  /* About */
+  main .container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  #about .abt {
+    margin-top: 0;
+  }
+  main .container img {
+    height: 40%;
+    width: 40%;
+  }
+  main .container .info {
+    text-align: center;
+    margin-top: 0;
+  }
+  main .container .info p {
+    text-align: justify;
+  }
+
+  header .header-content .header-info h1 {
+    font-size: var(--h1-font-size);
+  }
+  header .header-content .header-info .desc-header {
+    font-size: var(--normal-font-size);
+  }
+  .heading-skills,
+  .desc-project {
+    text-align: justify;
+  }
+  .desc-skills {
+    text-align: justify;
+    line-height: normal;
+  }
+  .button {
+    width: 100px;
+    font-size: var(--normal-font-size);
+  }
+  main .abt {
+    margin-top: 2rem;
+  }
+  #contact {
+    margin-inline: 1rem;
+  }
+  #contact .contact-form h3 {
+    text-align: center;
+  }
+  input,
+  textarea {
+    margin: 0.5rem 1rem;
+    width: 95%;
+  }
+  #footer hr {
+    margin-inline: 1rem;
+  }
+  #footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .flex-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 890px) and (min-width: 376px) {
+  main .container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  #about .abt {
+    margin-top: 0;
+  }
+  main .container img {
+    height: 40%;
+    width: 40%;
+  }
+  main .container .info {
+    text-align: center;
+    margin-top: 0;
+  }
+  #contact {
+    margin-inline: 1rem;
+  }
+  #contact .contact-form h3 {
+    text-align: center;
+  }
+  input,
+  textarea {
+    margin: 0.5rem 1rem;
+    width: 100%;
+  }
+  #footer hr {
+    margin-inline: 1rem;
+  }
+  #footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 0;
+  }
+  .flex-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 600px) {
+  .common {
+    width: 100%;
+  }
+  .flex-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
